@@ -4,6 +4,25 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+ window.users = [
+  {
+      firstName: "Angelo",
+      lastName: "Cachuela",
+      email:"tester@gmail.com",
+      password:"123",
+      Gender: "Male",
+  },
+  {
+      firstName: "Diana",
+      lastName: "Constantine",
+      email:"tester2@gmail.com",
+      password:"1234",
+      Gender: "Female"
+  }
+];
+
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
